@@ -1,7 +1,10 @@
 {
-  "private": true,
   "scripts": {
-    "build": "turbo run build",
+    "build": "pnpm -r --filter ./packages run build",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm build && pnpm release:only",
+    "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "clean": "turbo run clean",
     "dev": "turbo run dev --no-cache --continue",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -13,5 +16,11 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.15.0"
+  "packageManager": "pnpm@7.15.0",
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
