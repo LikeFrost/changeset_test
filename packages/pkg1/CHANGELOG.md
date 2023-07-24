@@ -4,6 +4,12 @@
 
 ### Major Changes
 
+- a8e38d6: fix
+
+## 3.0.0
+
+### Major Changes
+
 - 7b599b4: test
 
 ## 2.0.0
