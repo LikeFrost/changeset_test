@@ -1,7 +1,5 @@
 {
   "scripts": {
-    "build": "pnpm -r --filter ./packages run build",
-    "changeset": "changeset",
     "version": "changeset version",
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
