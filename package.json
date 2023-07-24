@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "version": "changeset version",
-    "release": "pnpm build && pnpm release:only",
-    "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "clean": "turbo run clean",
     "dev": "turbo run dev --no-cache --continue",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
