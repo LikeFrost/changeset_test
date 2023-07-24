@@ -1,6 +1,6 @@
 {
-  "name": "pkg1-test-test",
-  "version": "3.0.0",
+  "name": "likefrost1/pkg1-test-test",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
