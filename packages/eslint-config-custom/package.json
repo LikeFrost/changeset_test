@@ -1,6 +1,6 @@
 {
-  "name": "likefrost1/eslint-config-custom-test",
-  "version": "1.0.0",
+  "name": "eslint-config-custom-test",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
