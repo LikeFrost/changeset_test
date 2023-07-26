@@ -1,5 +1,11 @@
 # pkg1
 
+## 3.0.0
+
+### Major Changes
+
+- e3bd35b: test
+
 ## 4.0.0
 
 ### Major Changes
